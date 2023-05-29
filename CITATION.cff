@@ -2,15 +2,19 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Fuquen"
-  given-names: "Florez"
+  given-names: "David"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
 - family-names: "Ruiz"
   given-names: "Alejandro"
- - family-names: "Rodriguez"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Rodriguez"
   given-names: "Juliana"
- - family-names: "Nieto"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Nieto"
   given-names: "Lucas"
-title: "Looping Pendulum usign Lagrangian Mechanics"
-version: 2.0.4
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "LoopingPendulumLagrange"
+version: 1.0.0
 doi: 10.5281/zenodo.1234
-date-released: 2023-5-28
+date-released: 2023-05-28
 url: "https://github.com/David-Fuq/LoopingPendulumLagrange"
