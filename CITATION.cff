@@ -5,9 +5,9 @@ authors:
   given-names: "Florez"
 - family-names: "Ruiz"
   given-names: "Alejandro"
-  - family-names: "Rodriguez"
+ - family-names: "Rodriguez"
   given-names: "Juliana"
-  - family-names: "Nieto"
+ - family-names: "Nieto"
   given-names: "Lucas"
 title: "Looping Pendulum usign Lagrangian Mechanics"
 version: 2.0.4
