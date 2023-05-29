@@ -1,0 +1,16 @@
+m1 := 12.4;
+m2 := 109.4;
+\[Gamma]1 := 10^(-3);
+\[Alpha] := 10^(-3);
+g:=977;
+\[Gamma]2 :=  10^(-3);
+R := 0.5;
+v2:=10^(-6);
+\[Mu] := 0.34
+c := 87 (*Valor de la cuerda*)
+b := 90 *\[Pi]/180 (*me lo invite yo*)
+lo := 32.78
+to := 4.19
+tpo := 18.27
+
+s =NDSolve[{m1*(R^2* \[Theta][t]-lo*R-R^{2}*to)*(\[Theta]'[t])^2+m1*(lo^2+R^2*(\[Theta][t])^2+R^2*to^2-2*lo*R*\[Theta][t]+2*lo*R*to-2R^2*to*\[Theta][t])\[Theta]''[t]-m1*g*lo*Sin[\[Theta][t]]+m1*g*R*\[Theta][t]*Sin[\[Theta][t]]-m1*g*R*to*Sin[\[Theta][t]]==2*(\[Gamma]1+\[Gamma]2+\[Alpha]*(lo-R(\[Theta][t]-to))),\[Theta][0]==to,\[Theta]'[0]==tpo},{\[Theta]},{t,0,1.89}]

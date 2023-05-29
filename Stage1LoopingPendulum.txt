@@ -1,0 +1,15 @@
+m1 := 12.4;
+m2 := 109.8;
+\[Gamma]1 := 10^(-3);
+\[Alpha] := 10^(-3);
+g:=977;
+\[Gamma]2 :=  10^(-3);
+R := 0.5;
+v2:=10^(-6);
+\[Mu] := 0.34
+c := 87 (*Valor de la cuerda*)
+b := 160 *\[Pi]/180 (*me lo invite yo
+*)
+
+
+s =NDSolve[{(m1+m2*Exp[-\[Mu]*\[Theta][t]])*l''[t]+(m1+m2*Exp[-\[Mu]*\[Theta][t]])*R*\[Theta]''[t]==m1*l[t]*(\[Theta]'[t])^2-m2*g*Exp[-\[Mu]*\[Theta][t]]-m1*g*Cos[\[Theta][t]],(m1+m2)R*l''[t]+(m1*(l[t])^2+(m1+m2)*R^2)*\[Theta]''[t]==(-1)*2*m1*l[t]*l'[t]*\[Theta]'[t]-m1*g*(R*Cos[\[Theta][t]]-l[t]*Sin[\[Theta][t]])-m2*g*R,l[0]==c-R*b,\[Theta][0]==b,l'[0]==0,\[Theta]'[0]==0},{l,\[Theta]},{t,0,27}]
